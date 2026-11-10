@@ -1,0 +1,11 @@
+{
+  "webOrigin": "http://localhost:8080",
+  "realBackendTestPort": 3001,
+  "apiForwardingUsed": true,
+  "mockedResponses": false,
+  "loginPayloadCorrect": true,
+  "actualLoginStatus": 200,
+  "managementScreenReached": true,
+  "bearerTokenSent": true,
+  "authenticatedListStatus": 200
+}

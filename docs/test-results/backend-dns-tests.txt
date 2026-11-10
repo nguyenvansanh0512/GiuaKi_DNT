@@ -1,0 +1,129 @@
+
+> midterm-admin-api@1.0.0 test
+> node --test --test-concurrency=1
+
+TAP version 13
+# Subtest: 01 login đúng/sai, token trả về có hạn dùng
+ok 1 - 01 login đúng/sai, token trả về có hạn dùng
+  ---
+  duration_ms: 1069.5201
+  type: 'test'
+  ...
+# Subtest: 02 CRUD cần token; token sai/hết hạn bị chặn
+ok 2 - 02 CRUD cần token; token sai/hết hạn bị chặn
+  ---
+  duration_ms: 32.3403
+  type: 'test'
+  ...
+# Subtest: 03 health, danh sách rỗng, CORS
+ok 3 - 03 health, danh sách rỗng, CORS
+  ---
+  duration_ms: 59.4562
+  type: 'test'
+  ...
+# Subtest: 04 thêm ảnh thật và đọc lại từ MongoDB kiểm thử
+ok 4 - 04 thêm ảnh thật và đọc lại từ MongoDB kiểm thử
+  ---
+  duration_ms: 80.4696
+  type: 'test'
+  ...
+# Subtest: 05 email trùng (không phân biệt hoa/thường) và dữ liệu sai
+ok 5 - 05 email trùng (không phân biệt hoa/thường) và dữ liệu sai
+  ---
+  duration_ms: 114.419
+  type: 'test'
+  ...
+# Subtest: 06 sửa đúng bốn trường; không cho phép trường thừa / trùng email
+ok 6 - 06 sửa đúng bốn trường; không cho phép trường thừa / trùng email
+  ---
+  duration_ms: 83.6072
+  type: 'test'
+  ...
+# Subtest: 07 tìm theo họ tên/email; ký tự regex không được thực thi
+ok 7 - 07 tìm theo họ tên/email; ký tự regex không được thực thi
+  ---
+  duration_ms: 48.0608
+  type: 'test'
+  ...
+# Subtest: 08 ObjectId sai, không tồn tại, xóa đúng bản ghi
+ok 8 - 08 ObjectId sai, không tồn tại, xóa đúng bản ghi
+  ---
+  duration_ms: 58.1181
+  type: 'test'
+  ...
+# Subtest: 09 schema strict và toàn bộ document chỉ có bốn trường + _id
+ok 9 - 09 schema strict và toàn bộ document chỉ có bốn trường + _id
+  ---
+  duration_ms: 8.3423
+  type: 'test'
+  ...
+# Subtest: 10 ảnh vượt giới hạn / giả định dạng / thiếu trường bị từ chối
+ok 10 - 10 ảnh vượt giới hạn / giả định dạng / thiếu trường bị từ chối
+  ---
+  duration_ms: 8.5369
+  type: 'test'
+  ...
+# Subtest: 11 JSON lỗi, API lạ trả status phù hợp
+ok 11 - 11 JSON lỗi, API lạ trả status phù hợp
+  ---
+  duration_ms: 20.7504
+  type: 'test'
+  ...
+# Subtest: 12 database mất kết nối trả 503; URI mẫu không được nhận
+ok 12 - 12 database mất kết nối trả 503; URI mẫu không được nhận
+  ---
+  duration_ms: 26.8434
+  type: 'test'
+  ...
+# Subtest: DNS không cấu hình giữ nguyên resolver mặc định
+ok 13 - DNS không cấu hình giữ nguyên resolver mặc định
+  ---
+  duration_ms: 12.0458
+  type: 'test'
+  ...
+# Subtest: DNS trim danh sách, hỗ trợ IPv4/IPv6 và áp dụng cho promises/SRV của driver
+ok 14 - DNS trim danh sách, hỗ trợ IPv4/IPv6 và áp dụng cho promises/SRV của driver
+  ---
+  duration_ms: 21.8934
+  type: 'test'
+  ...
+# Subtest: DNS chỉ áp dụng một lần, không thay resolver giữa các kết nối
+ok 15 - DNS chỉ áp dụng một lần, không thay resolver giữa các kết nối
+  ---
+  duration_ms: 1.992
+  type: 'test'
+  ...
+# Subtest: DNS sai bị chặn trước khi thay resolver, không lộ giá trị đầu vào
+ok 16 - DNS sai bị chặn trước khi thay resolver, không lộ giá trị đầu vào
+  ---
+  duration_ms: 3.641
+  type: 'test'
+  ...
+# Subtest: Lỗi native setServers được che, không đánh dấu đã áp dụng khi lỗi
+ok 17 - Lỗi native setServers được che, không đánh dấu đã áp dụng khi lỗi
+  ---
+  duration_ms: 13.1887
+  type: 'test'
+  ...
+# Subtest: connectDatabase áp dụng DNS trước mongoose.connect, truyền nguyên URI và không lặp cấu hình
+ok 18 - connectDatabase áp dụng DNS trước mongoose.connect, truyền nguyên URI và không lặp cấu hình
+  ---
+  duration_ms: 3.2973
+  type: 'test'
+  ...
+# Đã kết nối MongoDB — database midterm_multiplatform.
+# Subtest: Startup: model nhập trước kết nối vẫn khởi tạo collection và unique index
+ok 19 - Startup: model nhập trước kết nối vẫn khởi tạo collection và unique index
+  ---
+  duration_ms: 1150.9409
+  type: 'test'
+  ...
+1..19
+# tests 19
+# suites 0
+# pass 19
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 9015.1899

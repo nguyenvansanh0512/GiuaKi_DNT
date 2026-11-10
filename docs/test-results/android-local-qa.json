@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-10",
+  "device": "Android 15 API 35 emulator-5554",
+  "database": "Temporary MongoDB local, NOT Atlas",
+  "results": [
+    "APK installed and launched: PASS",
+    "Admin login and read list: PASS",
+    "Native Android Photo Picker selected PNG: PASS",
+    "Preview, compress, save through UI: PASS",
+    "Refresh and detail reloaded image from API/MongoDB local: PASS",
+    "Stored document has four business fields plus _id: PASS",
+    "System Back from detail returns to list: PASS"
+  ]
+}

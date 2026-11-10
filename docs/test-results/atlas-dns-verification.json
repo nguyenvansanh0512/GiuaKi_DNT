@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-10",
+  "backendTests": {
+    "passed": 19,
+    "failed": 0
+  },
+  "atlas": {
+    "hostnameVerified": true,
+    "connection": "passed",
+    "ping": "passed",
+    "audit": "passed",
+    "documentCount": 0,
+    "httpHealth": {
+      "status": "ok",
+      "database": "connected"
+    },
+    "temporaryBind": {
+      "host": "127.0.0.1",
+      "port": 3001
+    }
+  },
+  "persistentEnvironmentChanges": [
+    "MONGODB_DNS_SERVERS"
+  ],
+  "uriAndCredentialsUnchanged": true,
+  "schemaChanged": false,
+  "flutterChanged": false,
+  "atlasSeedExecuted": false,
+  "atlasExportExecuted": false
+}

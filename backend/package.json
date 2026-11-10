@@ -1,0 +1,35 @@
+{
+  "name": "midterm-admin-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Admin CRUD API — đúng bốn trường nghiệp vụ",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test --test-concurrency=1",
+    "hash": "node scripts/hash-password.js",
+    "setup:demo": "node scripts/setup-demo.js",
+    "seed": "node scripts/seed.js",
+    "export": "node scripts/export.js",
+    "audit:data": "node scripts/audit-data.js",
+    "check:atlas": "node scripts/check-atlas.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.3",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^10.3.0",
+    "supertest": "^7.1.4"
+  }
+}

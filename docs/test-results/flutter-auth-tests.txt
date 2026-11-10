@@ -1,0 +1,11 @@
+00:00 +0: loading E:/DNTDD/Giua_ki/frontend/test/login_flow_test.dart
+00:00 +0: E:/DNTDD/Giua_ki/frontend/test/login_flow_test.dart: Login sai giữ form; login đúng chuyển quản lý và gửi Bearer
+00:00 +1: E:/DNTDD/Giua_ki/frontend/test/login_flow_test.dart: Login sai giữ form; login đúng chuyển quản lý và gửi Bearer
+00:00 +2: E:/DNTDD/Giua_ki/frontend/test/login_flow_test.dart: Login sai giữ form; login đúng chuyển quản lý và gửi Bearer
+00:00 +3: E:/DNTDD/Giua_ki/frontend/test/login_flow_test.dart: Login sai giữ form; login đúng chuyển quản lý và gửi Bearer
+00:00 +4: E:/DNTDD/Giua_ki/frontend/test/login_flow_test.dart: Login sai giữ form; login đúng chuyển quản lý và gửi Bearer
+00:00 +5: E:/DNTDD/Giua_ki/frontend/test/login_flow_test.dart: Login sai giữ form; login đúng chuyển quản lý và gửi Bearer
+00:01 +6: E:/DNTDD/Giua_ki/frontend/test/navigation_test.dart: System Back trở về danh sách; logout đóng form bảo vệ
+00:01 +7: E:/DNTDD/Giua_ki/frontend/test/widget_test.dart: Login responsive 360.0
+00:01 +8: E:/DNTDD/Giua_ki/frontend/test/widget_test.dart: Login responsive 1440.0
+00:01 +9: All tests passed!

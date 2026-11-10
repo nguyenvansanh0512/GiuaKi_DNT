@@ -1,0 +1,15 @@
+{
+  "web": {
+    "bytes": 3266403,
+    "sha256": "604AA63C67254A27678244D91BE54FADC840A15B6D0A32D02E9A16C42E49BD56",
+    "path": "frontend/build/web/main.dart.js"
+  },
+  "date": "2026-11-10",
+  "dart": "3.13.7",
+  "apk": {
+    "bytes": 177021546,
+    "sha256": "7DDA7713DE80D4EEF87656922A6B5FF49923DE84107CB971DE4FD56EC5BB3E43",
+    "path": "frontend/build/app/outputs/flutter-apk/app-debug.apk"
+  },
+  "flutter": "3.47.9"
+}

@@ -1,0 +1,7 @@
+[
+  { "email": "nguyenvana@example.com", "matkhau": "Demo123456", "hoten": "Nguyễn Văn An", "hinhanh": "" },
+  { "email": "tranthib@example.com", "matkhau": "Demo123456", "hoten": "Trần Thị Bình", "hinhanh": "" },
+  { "email": "levanc@example.com", "matkhau": "Demo123456", "hoten": "Lê Văn Cường", "hinhanh": "" },
+  { "email": "phamthid@example.com", "matkhau": "Demo123456", "hoten": "Phạm Thị Dung", "hinhanh": "" },
+  { "email": "hoangvane@example.com", "matkhau": "Demo123456", "hoten": "Hoàng Văn Em", "hinhanh": "" }
+]

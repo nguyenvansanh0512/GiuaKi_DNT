@@ -1,0 +1,11 @@
+{
+  "apiTestPort": 3001,
+  "validLogin": 200,
+  "wrongPassword": 401,
+  "missingInformation": 400,
+  "blankInformation": 400,
+  "jwtVerified": true,
+  "authenticatedUsersRequest": 200,
+  "atlasReadVerified": true,
+  "databaseWritesPerformed": false
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-10",
+  "database": "MongoDB temporary local; NOT Atlas",
+  "browser": "Chrome headless",
+  "results": [
+    "login sai: PASS",
+    "login đúng: PASS",
+    "thêm bằng UI, UTF-8, upload/nén ảnh, đọc lại API MongoDB local và bốn trường: PASS",
+    "sửa bằng UI và đọc lại API: PASS",
+    "tìm kiếm có/không kết quả: PASS",
+    "hủy xóa: PASS",
+    "xóa bằng UI và kiểm tra DB local: PASS",
+    "đăng xuất: PASS"
+  ]
+}
